@@ -1,0 +1,132 @@
+[
+    {
+      "_id": "N6kKZ",
+      "name": "New Toy",
+      "price": 60,
+      "labels": [],
+      "createdAt": "2023-09-23T22:08:51.317Z",
+      "inStock": true
+    },
+    {
+      "_id": "hQyhg",
+      "name": "Talking Doll",
+      "price": 123,
+      "labels": [
+        "Doll",
+        "Battery Powered",
+        "Baby"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": true
+    },
+    {
+      "_id": "ajm1I",
+      "name": "Lego Castle",
+      "price": 50,
+      "labels": [
+        "Box game",
+        "Art"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": false
+    },
+    {
+      "_id": "PMwp2",
+      "name": "RC Car",
+      "price": 80,
+      "labels": [
+        "On wheels",
+        "Battery Powered"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": true
+    },
+    {
+      "_id": "MsD72",
+      "name": "Jigsaw Puzzle",
+      "price": 20,
+      "labels": [
+        "Puzzle",
+        "Art"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": true
+    },
+    {
+      "_id": "3FxtF",
+      "name": "Toy Guitar",
+      "price": 45,
+      "labels": [
+        "Art",
+        "Outdoor"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": false
+    },
+    {
+      "_id": "0gGED",
+      "name": "Teddy Bear",
+      "price": 25,
+      "labels": [
+        "Baby",
+        "Doll"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": true
+    },
+    {
+      "_id": "4u42q",
+      "name": "Board Game",
+      "price": 35,
+      "labels": [
+        "Box game",
+        "Puzzle"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": false
+    },
+    {
+      "_id": "d317T",
+      "name": "Toy Airplane",
+      "price": 60,
+      "labels": [
+        "On wheels",
+        "Outdoor"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": true
+    },
+    {
+      "_id": "VJ12c",
+      "name": "Rubber Ducky",
+      "price": 5,
+      "labels": [
+        "Baby",
+        "Outdoor"
+      ],
+      "createdAt": 1695310287782,
+      "inStock": true
+    },
+    {
+      "_id": "X2fYq",
+      "name": "New Toy",
+      "price": 60,
+      "labels": [
+        "On wheels",
+        "Doll",
+        "Puzzle"
+      ],
+      "createdAt": 1695489228475,
+      "inStock": true
+    },
+    {
+      "_id": "NUS8Q",
+      "name": "New Toy",
+      "price": "124",
+      "labels": [
+        "Doll"
+      ],
+      "createdAt": 1695489784630,
+      "inStock": true
+    }
+  ]
