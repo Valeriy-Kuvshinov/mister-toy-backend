@@ -1,5 +1,25 @@
 [
   {
+    "_id": "aiBHu",
+    "name": "Robot Boy Toy",
+    "price": 44,
+    "labels": [
+      "Doll"
+    ],
+    "createdAt": 1695588245255,
+    "inStock": true
+  },
+  {
+    "_id": "vcM81",
+    "name": "Lego Bricks",
+    "price": 86,
+    "labels": [
+      "Puzzle"
+    ],
+    "createdAt": 1695587051577,
+    "inStock": true
+  },
+  {
     "_id": "YajHg",
     "name": "New Toy",
     "price": 60,
@@ -71,7 +91,7 @@
   {
     "_id": "0gGED",
     "name": "Teddy Bear",
-    "price": 25,
+    "price": 55,
     "labels": [
       "Baby",
       "Doll"
@@ -82,7 +102,7 @@
   {
     "_id": "4u42q",
     "name": "Board Game",
-    "price": "59",
+    "price": 59,
     "labels": [
       "Box game",
       "Puzzle"
@@ -104,7 +124,7 @@
   {
     "_id": "VJ12c",
     "name": "Rubber Ducky",
-    "price": 5,
+    "price": 48,
     "labels": [
       "Baby",
       "Outdoor"
