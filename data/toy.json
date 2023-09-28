@@ -1,5 +1,17 @@
 [
   {
+    "_id": "WrbEA",
+    "name": "New Toy",
+    "price": 60,
+    "labels": [
+      "Doll",
+      "Box game",
+      "Art"
+    ],
+    "createdAt": 1695941844093,
+    "inStock": true
+  },
+  {
     "_id": "aiBHu",
     "name": "Robot Boy Toy",
     "price": 44,
@@ -14,22 +26,10 @@
     "name": "Lego Bricks",
     "price": 86,
     "labels": [
-      "Puzzle"
+      "Puzzle",
+      "Outdoor"
     ],
     "createdAt": 1695587051577,
-    "inStock": true
-  },
-  {
-    "_id": "YajHg",
-    "name": "New Toy",
-    "price": 60,
-    "labels": [
-      "On wheels",
-      "Baby",
-      "Outdoor",
-      "Art"
-    ],
-    "createdAt": 1695540731102,
     "inStock": true
   },
   {
@@ -69,13 +69,13 @@
   {
     "_id": "MsD72",
     "name": "Jigsaw Puzzle",
-    "price": 20,
+    "price": 100,
     "labels": [
       "Puzzle",
-      "Art"
+      "Box game"
     ],
     "createdAt": 1695310287782,
-    "inStock": true
+    "inStock": false
   },
   {
     "_id": "3FxtF",
@@ -102,13 +102,16 @@
   {
     "_id": "4u42q",
     "name": "Board Game",
-    "price": 59,
+    "price": 63,
     "labels": [
       "Box game",
-      "Puzzle"
+      "Puzzle",
+      "Doll",
+      "Battery Powered",
+      "Baby"
     ],
     "createdAt": 1695310287782,
-    "inStock": false
+    "inStock": true
   },
   {
     "_id": "d317T",

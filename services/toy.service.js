@@ -23,8 +23,9 @@ function query(filterBy, sort) {
         filteredToys = filteredToys.filter(toy => toy.inStock === JSON.parse(filterBy.inStock))
     }
     filterBy.minPrice = (+filterBy.minPrice) ? +filterBy.minPrice : -Infinity
+    filterBy.maxPrice = (+filterBy.maxPrice || filterBy.maxPrice === 0) ? +filterBy.maxPrice : Infinity
+    filteredToys = filteredToys.filter(toy => (toy.price >= filterBy.minPrice && toy.price <= filterBy.maxPrice))
 
-    filteredToys = filteredToys.filter(toy => (toy.price >= filterBy.minPrice))
     filteredToys.sort((toy1, toy2) => {
         const dir = JSON.parse(sort.asc) ? 1 : -1
         if (sort.by === 'price') return (toy1.price - toy2.price) * dir
