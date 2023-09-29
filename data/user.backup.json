@@ -1,0 +1,13 @@
+[
+    {
+        "_id": "001",
+        "firstName": "Valeriy",
+        "lastName": "Kuvshinov",
+        "username": "Admin",
+        "password": "admin!",
+        "email": "valerykuvshinuv@gmail.com",
+        "balance": 10000,
+        "isAdmin": true,
+        "createdAt": 1
+    }
+]

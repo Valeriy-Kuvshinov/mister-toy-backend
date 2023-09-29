@@ -1,5 +1,6 @@
 const fs = require('fs')
 const toys = require('../data/toy.json')
+const { utilService } = require('./util.service.js')
 
 module.exports = {
     query,
@@ -53,20 +54,11 @@ function save(toy) {
         toys[idx] = { ...toys[idx], ...toy }
     } else {
         toy.createdAt = Date.now()
-        toy._id = _makeId()
+        toy._id = utilService.makeId()
         toys.unshift(toy)
     }
     _saveToysToFile()
     return Promise.resolve(toy)
-}
-
-function _makeId(length = 5) {
-    var txt = '';
-    var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
-    for (var i = 0; i < length; i++) {
-        txt += possible.charAt(Math.floor(Math.random() * possible.length))
-    }
-    return txt;
 }
 
 function _saveToysToFile() {

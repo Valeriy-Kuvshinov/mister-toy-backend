@@ -9,5 +9,16 @@
         "balance": 10000,
         "isAdmin": true,
         "createdAt": 1
+    },
+    {
+        "username": "Sashok",
+        "password": "Sashok",
+        "firstName": "Sasha",
+        "lastName": "Drapkin",
+        "email": "valery450@walla.com",
+        "balance": 10000,
+        "_id": "a5ucu",
+        "isAdmin": false,
+        "createdAt": 1696025752641
     }
 ]
